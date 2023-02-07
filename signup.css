@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000538;
+    margin-left: 30px;
+}
+
+#header ul li a{
+    text-decoration: none;
+}
+
+.login{
+    width: 100px;
+    height: 34px;
+    border: 1px solid #000000;
+    border-radius: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #000538;
+    background: #ffffff;
+    margin-right: 56px;
+}
+
+.login:hover{
+    background: #103082;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+/* .rectangle{
+    position: absolute;
+    width: 330.25px;
+    height: 335px;
+    background: #306ED9;
+    border-radius: 60px;
+    transform: rotate(-80.57deg);
+} */
+
+.signup{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.heading{
+    left: 376px;
+    top: 211px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.rectangle2{
+    position: relative;
+    width: 1070px;
+    height: 800px;
+    margin: 47px 187px 58px 170px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.left{
+    float: left;
+    width: 496px;
+    height: 630px;
+    left: 210px;
+    top: 402px;
+    background: #F8F8F8;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin: 22px 0 137px 27px;
+}
+
+.right{
+    float: right;
+    width: 496px;
+    height: 630px;
+    left: 210px;
+    top: 402px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin: 22px 23px 137px 0;
+}
+
+.sub{
+    margin: 30px 15px 0px 31px;
+}
+
+.personal{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #081D61;  
+}
+
+.rectangle3{
+    width: 436px;
+    height: 246px;
+    left: 240px;
+    top: 489px;
+    border-radius: 15px;
+    background-image: url(images/personal.png);
+    margin: 12px 30px 0 30px;
+}
+
+.circle{
+    margin: 31px 15px 0 31px;
+}
+
+.business{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #000000;
+}
+
+.Ppara{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #0A1B5A;
+    margin: 30px 0px 0 32px;
+    
+}
+
+.Bpara{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #0A1B5A;
+    margin: 32px 0px 0 30px;
+
+}
+
+.points1 li{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #000000;
+    list-style-image: url(images/Tic-icon.png);
+    margin: 16px 94px 16px 68px;
+}
+
+.points2 li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    list-style: none;
+    list-style-image: url(images/Tic-icon.png);
+    margin: 16px 94px 16px 68px;
+}
+
+.tic{
+    margin: 19px 17px 18px 31px;
+list-style-image: url(images/Tic-icon.png);
+}
+
+.rectangle4{
+    width: 436px;
+    height: 246px;
+    border-radius: 15px;
+    background-image: url(images/business.png);
+    margin: 12px 29px 0 31px;
+}
+
+.started{
+    position: absolute;
+    width: 165px;
+    height: 48px;
+    background: #103082;
+    border-radius: 32px;
+    border-color: #103082 ;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 700px 0 48px 0px;
+    left: 454px;
+    cursor: pointer;
+}
